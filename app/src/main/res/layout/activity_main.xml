@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.poisonh.waterprogress.WaterProgressWithText
+        android:id="@+id/wpwt_view"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:score_txt_color="#ff3245"
+        app:score_txt_size="80"
+
+        app:score_unit_txt_color="#ea4536"
+        app:score_unit_txt_size="20"
+
+        app:tips_txt="用户评分"
+        app:tips_txt_color="#cd98aa"
+        app:tips_txt_size="40"
+        />
+</RelativeLayout>

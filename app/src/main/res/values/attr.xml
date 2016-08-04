@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WaterProgressWithText">
+        <!--评分文字大小、颜色-->
+        <attr name="score_txt_size" format="integer"/>
+        <attr name="score_txt_color" format="color"/>
+
+        <!--评分单位文字大小、颜色-->
+        <attr name="score_unit_txt_size" format="integer"/>
+        <attr name="score_unit_txt_color" format="color"/>
+
+        <!--提示文字、大小、颜色-->
+        <attr name="tips_txt" format="string"/>
+        <attr name="tips_txt_size" format="integer"/>
+        <attr name="tips_txt_color" format="color"/>
+
+
+    </declare-styleable>
+</resources>
