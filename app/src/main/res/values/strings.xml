@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WaterProgress</string>
+    <string name="tip_info_value">剩余电量</string>
 </resources>

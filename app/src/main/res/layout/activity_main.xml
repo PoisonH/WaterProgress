@@ -12,10 +12,8 @@
         android:layout_centerInParent="true"
         app:score_txt_color="#ff3245"
         app:score_txt_size="80"
-
         app:score_unit_txt_color="#ea4536"
         app:score_unit_txt_size="20"
-
         app:tips_txt="用户评分"
         app:tips_txt_color="#cd98aa"
         app:tips_txt_size="40"

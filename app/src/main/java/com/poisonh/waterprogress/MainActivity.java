@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         mWater = (WaterProgressWithText) findViewById(R.id.wpwt_view);
         mWater.setmScore(650);
+        mWater.setProgress(60);
     }
 }

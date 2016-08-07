@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <declare-styleable name="WaterProgressWithText">
+    <declare-styleable name="WaveViewStyle">
+        <attr name="textColor"
+              format="color"/>
+        <attr name="mainTextSize"
+              format="dimension"/>
+        <attr name="topInfoTextValue"
+              format="string"/>
+        <attr name="bgColor"
+              format="color"/>
+        <attr name="waveColor"
+              format="color"/>
+        <attr name="innerBgColor"
+              format="color"/>
+        <attr name="outBgColor"
+              format="color"/>
         <!--评分文字大小、颜色-->
         <attr name="score_txt_size" format="integer"/>
         <attr name="score_txt_color" format="color"/>
@@ -14,7 +27,5 @@
         <attr name="tips_txt" format="string"/>
         <attr name="tips_txt_size" format="integer"/>
         <attr name="tips_txt_color" format="color"/>
-
-
     </declare-styleable>
 </resources>
